@@ -1,0 +1,750 @@
+16:14:51.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:14:51.419 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:14:51.567 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:14:51.568 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:14:51.791 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:14:51.792 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:14:52.117 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 tests.BStackSampleTest,singleTest
+16:14:52.117 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: tests.BStackSampleTest
+16:14:52.125 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: junit5, Engine: none
+16:14:52.152 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: junit5, Engine: none from dependencies
+16:14:52.152 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: junit5
+16:14:52.152 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:14:52.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:14:52.155 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:14:52.156 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:14:52.156 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:14:52.156 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:14:52.896 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:14:53.304 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 406ms
+16:14:54.069 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 762ms
+16:14:54.528 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 455ms
+16:14:54.528 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:14:54.538 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:14:54.564 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":6,"parseDependencies":27},"language":"java","sdkRunId":"87c94f71-0784-4454-a10f-3d1c034d2c87","buildIdentifier":"#19","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"junit5","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:14:54.911 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:14:54.911 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:14:54.933 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-05T15:14:54.932599900Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+16:14:54.933 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+16:14:55.705 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:14:55.706 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : vodi3icd8r17cyugrifcnnakkhqymgfy43kavqgn
+16:14:55.708 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:14:55.712 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 05_jun__1614_LIS_5CD411C579_49HM
+16:15:02.762 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed browserstack.shaded.org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1].
+16:15:02.762 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed A JSONObject text must begin with '{' at 1 [character 2 line 1].
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:15:02.763 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:15:02.791 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","globalException":"Initialization of BrowserStack Local failed A JSONObject text must begin with '{' at 1 [character 2 line 1].","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":6,"parseDependencies":27},"language":"java","sdkRunId":"87c94f71-0784-4454-a10f-3d1c034d2c87","buildIdentifier":"#19","userFramework":"junit5","testhub_uuid":"vodi3icd8r17cyugrifcnnakkhqymgfy43kavqgn","detectedAppiumVersion":"null","detectedDependencies":"","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"junit5","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:15:03.097 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:15:35.235 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:15:35.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:15:35.401 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:15:35.402 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:15:35.646 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:15:35.646 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:15:35.649 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:35.650 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:35.650 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:15:35.650 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:15:35.652 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:15:35.652 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:15:35.652 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:15:35.652 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:15:36.143 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:15:36.490 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 344ms
+16:15:37.071 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 578ms
+16:15:37.440 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 363ms
+16:15:37.444 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:15:37.449 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:15:37.468 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"6d952dfd-f5e4-4546-b525-fdf06dcd56fb","buildIdentifier":"#20","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:15:37.974 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:15:37.974 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:15:37.989 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-05T15:15:37.988010400Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+16:15:37.989 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+16:15:38.791 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:15:38.792 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : vzfsjs4uuoee6l0mcyeczolrqe6tdpqjztnmydlr
+16:15:38.792 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:15:38.797 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 05_jun__1615_LIS_5CD411C579_qgAG
+16:15:51.765 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:15:51.797 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.797 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:51.797 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.797 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.798 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:51.798 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:51.812 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.812 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:51.813 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.813 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire3193831529807746506tmp
+16:15:51.813 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:51.813 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire3193831529807746506tmp
+16:15:52.918 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:15:52.920 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:15:53.107 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:15:53.110 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:15:53.204 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:15:53.204 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:15:53.204 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:15:53.316 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:15:53.319 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:15:53.360 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:15:53.360 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:15:53.360 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:15:53.588 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:15:53.588 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:15:53.588 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:15:53.802 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:15:53.885 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:15:54.071 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:15:54.171 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 367ms
+16:15:54.250 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 363ms
+16:15:54.404 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 331ms
+16:15:54.887 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 633ms
+16:15:54.935 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 756ms
+16:15:55.039 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 633ms
+16:15:55.304 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 413ms
+16:15:55.306 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:15:55.314 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:15:55.325 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 389ms
+16:15:55.327 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:15:55.334 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:15:55.353 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:15:55.372 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:15:55.414 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 373ms
+16:15:55.415 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:15:55.421 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:15:55.458 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:16:04.770 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:16:07.924 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:16:08.114 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:16:14.172 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:16:14.172 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:16:14.173 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:16:14.173 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:16:14.781 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:16:14.782 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:16:15.373 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:16:21.248 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"6d952dfd-f5e4-4546-b525-fdf06dcd56fb","buildIdentifier":"#20","userFramework":"junit5","testhub_uuid":"vzfsjs4uuoee6l0mcyeczolrqe6tdpqjztnmydlr","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":12969,"sdk:setup":6008,"local:stop":5864},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:16:21.461 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:16:22.471 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a47054bfee615839bbb76c3c41c32faea7fe91a0
+16:16:22.471 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:16:22.471 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  20) is not same as client side buildName(browserstack-build-1 #20)
+16:21:36.588 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:21:36.591 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:21:36.730 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:21:36.730 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:21:36.945 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:21:36.945 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:21:36.949 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:36.950 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:36.950 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:21:36.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:21:36.952 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:21:36.952 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:21:36.952 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:21:36.952 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:21:37.502 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:21:37.885 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 381ms
+16:21:38.548 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 656ms
+16:21:38.966 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 417ms
+16:21:38.969 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:21:38.975 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:21:38.995 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"dbedccf4-2d15-4824-ac24-59f9dc76ed53","buildIdentifier":"#21","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:21:39.306 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:21:39.306 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:21:39.326 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-05T15:21:39.325996Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+16:21:39.326 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+16:21:40.098 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:21:40.099 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : 9cylsgkh1ezog3d8fujkl2v9cncepggpo3tuo0y2
+16:21:40.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:21:40.107 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 05_jun__1621_LIS_5CD411C579_9g3i
+16:21:52.386 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:21:52.410 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.410 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.410 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:52.410 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.410 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:52.410 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:52.417 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.417 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:52.418 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.418 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire982038574009945026tmp
+16:21:52.418 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:52.418 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire982038574009945026tmp
+16:21:53.454 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:21:53.458 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:21:53.643 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:21:53.646 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:21:53.691 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:21:53.691 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:21:53.691 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:21:53.833 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:21:53.837 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:21:53.875 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:21:53.875 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:21:53.876 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:21:54.083 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:21:54.083 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:21:54.083 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:21:54.194 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:21:54.372 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:21:54.565 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 368ms
+16:21:54.618 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:21:54.708 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 333ms
+16:21:54.993 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 373ms
+16:21:55.283 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 572ms
+16:21:55.630 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 633ms
+16:21:55.651 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 365ms
+16:21:55.654 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:21:55.661 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:21:55.691 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:21:56.001 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 370ms
+16:21:56.002 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+16:21:56.008 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:21:56.045 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:21:56.145 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 1576ms
+16:21:56.517 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 371ms
+16:21:56.519 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:21:56.524 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:21:56.570 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:22:02.745 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:22:05.049 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:22:14.626 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:22:14.626 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:22:14.626 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:22:14.626 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:22:19.894 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:22:26.050 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:22:26.050 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:22:26.614 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:22:32.404 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"dbedccf4-2d15-4824-ac24-59f9dc76ed53","buildIdentifier":"#21","userFramework":"junit5","testhub_uuid":"9cylsgkh1ezog3d8fujkl2v9cncepggpo3tuo0y2","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":12281,"sdk:setup":4456,"local:stop":5782},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:22:32.712 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:22:33.764 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aa3a3aede587a0b78a010cfe036490078243261e
+16:22:33.764 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:22:33.764 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  21) is not same as client side buildName(browserstack-build-1 #21)
+16:24:18.275 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:24:18.279 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:24:18.445 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:24:18.446 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:24:18.674 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:24:18.674 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:24:18.678 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:18.678 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:18.678 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:24:18.678 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:24:18.681 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:24:18.681 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:24:18.681 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:24:18.681 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:24:19.265 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:24:19.643 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 376ms
+16:24:20.297 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 650ms
+16:24:20.707 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 408ms
+16:24:20.710 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:24:20.712 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:24:20.723 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"cf7bc8b1-c354-4566-bebf-5c75cc09cb71","buildIdentifier":"#22","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:24:21.065 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:24:21.066 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:24:21.078 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-05T15:24:21.077314900Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+16:24:21.078 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+16:24:21.943 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:24:21.943 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : y5dycwahcqobs2nugfsfsnulcslplltylftwkxew
+16:24:21.944 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:24:21.947 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 05_jun__1624_LIS_5CD411C579_rnyh
+16:24:34.027 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:24:34.045 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.046 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.046 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:34.046 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.046 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:34.046 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:34.052 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.052 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.052 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire15881569101341873486tmp
+16:24:34.052 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:34.052 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:34.052 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire15881569101341873486tmp
+16:24:35.137 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:24:35.140 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:24:35.300 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:24:35.302 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:24:35.404 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:24:35.404 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:24:35.404 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:24:35.502 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:24:35.505 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:24:35.537 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:24:35.537 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:24:35.537 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:24:35.761 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:24:35.761 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:24:35.761 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:24:35.904 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:24:36.033 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:24:36.235 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:24:36.266 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 359ms
+16:24:36.397 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 362ms
+16:24:36.599 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 363ms
+16:24:36.853 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 585ms
+16:24:36.970 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 571ms
+16:24:37.175 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 574ms
+16:24:37.243 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 388ms
+16:24:37.247 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:24:37.259 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:24:37.302 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:24:37.348 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 375ms
+16:24:37.350 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:24:37.359 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:24:37.411 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:24:37.595 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 417ms
+16:24:37.596 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:24:37.604 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:24:37.648 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:24:45.008 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:24:45.946 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:24:56.075 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:24:56.075 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:24:56.075 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:24:56.077 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:25:07.891 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:25:12.925 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:25:12.925 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:25:13.491 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:25:19.249 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"cf7bc8b1-c354-4566-bebf-5c75cc09cb71","buildIdentifier":"#22","userFramework":"junit5","testhub_uuid":"y5dycwahcqobs2nugfsfsnulcslplltylftwkxew","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":12081,"sdk:setup":3808,"local:stop":5750},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:25:19.446 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:25:20.426 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f6b2df92fa9e0cf5338cae68b9a479c118a1d0c3
+16:25:20.426 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:25:20.426 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  22) is not same as client side buildName(browserstack-build-1 #22)
+16:30:08.033 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:30:08.036 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:30:08.175 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:30:08.176 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:30:08.387 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:30:08.387 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:30:08.390 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:08.391 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:08.391 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:30:08.391 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+16:30:08.393 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:30:08.393 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:30:08.393 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:30:08.393 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:30:08.934 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:30:09.290 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 353ms
+16:30:10.011 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 718ms
+16:30:10.498 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 485ms
+16:30:10.500 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:30:10.503 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:30:10.521 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"5aaa3ffa-ce52-4003-b25f-0223bf816d96","buildIdentifier":"#23","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:30:10.799 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:30:10.799 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:10.810 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-05T15:30:10.809695200Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+16:30:10.810 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+16:30:11.650 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:30:11.651 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : wcsujae3e2saxnjlkyifdl9mybc0hrbopkpyimdw
+16:30:11.652 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:30:11.656 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 05_jun__1630_LIS_5CD411C579_Q7u6
+16:30:23.477 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:30:23.495 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.495 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:23.496 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.497 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:23.498 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.499 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:23.500 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.500 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:23.500 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.501 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:23.502 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire5001235082418302153tmp
+16:30:23.502 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire5001235082418302153tmp
+16:30:24.517 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:30:24.520 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:30:24.789 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:30:24.792 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:30:24.797 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:30:24.797 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:30:24.797 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:30:25.015 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+16:30:25.018 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+16:30:25.043 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:30:25.043 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:30:25.043 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:30:25.248 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+16:30:25.248 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+16:30:25.248 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+16:30:25.321 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:30:25.534 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:30:25.670 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 347ms
+16:30:25.732 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+16:30:25.886 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 350ms
+16:30:26.089 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 351ms
+16:30:26.284 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 605ms
+16:30:26.490 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 600ms
+16:30:26.637 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 351ms
+16:30:26.640 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:30:26.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:26.677 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:30:26.698 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 605ms
+16:30:26.859 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 367ms
+16:30:26.860 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:30:26.866 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:26.900 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:30:27.070 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 371ms
+16:30:27.072 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+16:30:27.081 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:27.120 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is junit5. We currently support frameworks testng, cucumber-testng & serenity
+16:30:33.446 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:30:33.949 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:30:39.173 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:30:39.173 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:30:39.655 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+16:30:44.837 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:30:44.837 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:31:14.843 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+16:31:14.844 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:31:15.416 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:31:21.486 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"5aaa3ffa-ce52-4003-b25f-0223bf816d96","buildIdentifier":"#23","userFramework":"junit5","testhub_uuid":"wcsujae3e2saxnjlkyifdl9mybc0hrbopkpyimdw","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":11824,"sdk:setup":3445,"local:stop":6062},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:31:21.684 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:31:22.902 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/583ae33123357e05611cde134cd095ca5fb03da8
+16:31:22.902 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:22.902 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  23) is not same as client side buildName(browserstack-build-1 #23)
+10:08:05.827 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+10:08:05.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+10:08:05.995 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+10:08:05.996 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+10:08:06.045 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:08:06.215 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+10:08:06.215 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+10:08:06.218 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:06.219 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:06.219 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+10:08:06.219 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+10:08:06.221 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+10:08:06.221 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+10:08:06.221 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+10:08:06.221 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+10:08:06.729 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+10:08:07.087 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 355ms
+10:08:07.742 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 648ms
+10:08:08.649 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 903ms
+10:08:08.652 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+10:08:08.671 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"2c7a2f6a-4211-4f2f-a0d0-4df64186f615","buildIdentifier":"#24","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+10:08:09.041 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+10:08:09.042 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:08:09.057 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:09.056765200Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+10:08:09.057 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+10:08:10.003 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:10.004 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : o5xylpa5vwc8dbgip016qvunhzr4vppyjokccvbv
+10:08:10.004 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:10.004750900Z][ OBSERVABILITY ] Build creation successfull!
+
+10:08:10.004 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:08:10.009 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 06_jun__108_LIS_5CD411C579_WWER
+10:08:24.016 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:08:24.045 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.046 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:24.046 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.046 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.046 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:24.047 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:24.056 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.056 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:24.056 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.056 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire969295547946139173tmp
+10:08:24.056 [Thread-3] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:24.056 [Thread-4] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire969295547946139173tmp
+10:08:25.103 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+10:08:25.105 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+10:08:25.168 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:08:25.275 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+10:08:25.278 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+10:08:25.340 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+10:08:25.340 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+10:08:25.340 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+10:08:25.342 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:08:25.466 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\Downloads\\junit-browserstack-master\\junit-browserstack-master\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+10:08:25.469 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5\browserstack.yml
+10:08:25.503 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+10:08:25.503 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+10:08:25.504 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+10:08:25.548 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+10:08:25.697 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+10:08:25.697 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+10:08:25.697 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+10:08:25.817 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+10:08:25.997 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+10:08:26.160 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+10:08:26.174 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 355ms
+10:08:26.353 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 355ms
+10:08:26.525 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 363ms
+10:08:26.796 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 620ms
+10:08:26.962 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 602ms
+10:08:27.116 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 585ms
+10:08:27.634 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 837ms
+10:08:27.636 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+10:08:27.641 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:08:27.820 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 857ms
+10:08:27.821 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+10:08:27.826 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:08:27.939 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 821ms
+10:08:27.940 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+10:08:27.945 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+10:08:28.022 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.041 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.038001500Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.046 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.052 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.052009800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.059 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.066 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.066571800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.067 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.069 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.069570800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.308 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.332 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.324208500Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.336 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.341 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.341719800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.349 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.357 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.357893Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.359 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.360 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.360901600Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.475 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.477 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.477682500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.477 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.477682500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.477 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.477682500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.494 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.488620700Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.497 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.504 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.504199Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+10:08:28.513 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:28.524 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.524687700Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.525 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:28.529 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.529051800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:28.561 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.561859100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.759 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.759626600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.759 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.759626600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.760 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.760627800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.817 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.817298300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.936 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.936098600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.936 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.936098600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.936 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.936098600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:28.985 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:28.985570800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+10:08:30.059 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.059492200Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717664910059
+
+10:08:30.065 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.065039800Z][ OBSERVABILITY ] Processing Batch 6
+
+10:08:30.066 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:30.354 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.354142700Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717664910354
+
+10:08:30.358 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.358139200Z][ OBSERVABILITY ] Processing Batch 6
+
+10:08:30.361 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:30.509 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.509088900Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717664910509
+
+10:08:30.513 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:30.513503600Z][ OBSERVABILITY ] Processing Batch 6
+
+10:08:30.515 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:30.822 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:30.823 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:30.823816900Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:31.126 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:31.127 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:31.127578Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:31.268 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:31.268 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:31.268499100Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:32.061 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:32.061050300Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+10:08:32.356 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:32.356799300Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+10:08:32.511 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:32.510700500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+10:08:34.139 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+10:08:34.140 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+10:08:34.148 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.148320800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:34.154 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.154327400Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:34.162 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.162839100Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:34.168 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.168838500Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:34.357 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.357604500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+10:08:34.357 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:34.357604500Z][ OBSERVABILITY ] Processing Batch 1
+
+10:08:34.357 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:34.531 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:34.532 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:34.531901800Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:36.059 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.059801500Z][ OBSERVABILITY ] Time Since Last Batch Processed 3998
+
+10:08:36.489 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:36.496 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.496668200Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:36.500 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.500650600Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:36.503 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.503161500Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+10:08:36.522 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.522396200Z][ OBSERVABILITY ] Time Since Last Batch Processed 4011
+
+10:08:36.522 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:36.522396200Z][ OBSERVABILITY ] Processing Batch 1
+
+10:08:36.522 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:36.690 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:36.690 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:36.690365500Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:37.713 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:37.727 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.727050500Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:37.732 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.732033700Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:37.737 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.737068800Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+10:08:37.774 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.774634600Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:37.776 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:37.778 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.777613Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:37.784 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.784175900Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:37.785 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:37.786 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:37.786176100Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:38.063 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.063092500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+10:08:38.357 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.357483200Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+10:08:38.357 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.357701400Z][ OBSERVABILITY ] Processing Batch 4
+
+10:08:38.357 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:38.528 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:38.528 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:38.528985800Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:38.805 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.805351500Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:38.806 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:38.806 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.806348800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:38.810 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.810349500Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:38.810 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:38.811 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.811353300Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:38.830 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:08:38.830 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:08:38.832 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:08:38.832 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.832096100Z][ OBSERVABILITY ] Processing stop observability
+10:08:38.832 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:08:38.832 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.832096100Z][ OBSERVABILITY ] Processing stop observability
+10:08:38.832 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:38.832096100Z][ OBSERVABILITY ] Processing Batch 4
+
+10:08:38.832 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:38.997 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:38.999 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:38.998362300Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:41.543 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+10:08:41.562 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:41.562517200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:41.569 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:41.569794500Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:42.062 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:42.062839600Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+10:08:42.064 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:42.063358300Z][ OBSERVABILITY ] Processing Batch 1
+
+10:08:42.064 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:42.231 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:42.231 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:42.231992900Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:46.065 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:46.065734400Z][ OBSERVABILITY ] Time Since Last Batch Processed 4002
+
+10:08:50.055 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:50.055488900Z][ OBSERVABILITY ] Time Since Last Batch Processed 3990
+
+10:08:52.066 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:52.066230400Z][ OBSERVABILITY ] Time Since Last Batch Processed 2011
+
+10:08:52.724 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\Downloads\junit-browserstack-master\junit-browserstack-master\junit-5, TestClass :: tests\BStackSampleTest
+10:08:52.732 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:52.732610300Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:52.736 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:52.736594Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+10:08:52.741 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:52.741598500Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+10:08:54.300 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.300848900Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:54.303 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:54.305 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.305063Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+10:08:54.313 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.313594500Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:54.313 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+10:08:54.314 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.314627600Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+10:08:54.330 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+10:08:54.330 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:08:54.330 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.330674300Z][ OBSERVABILITY ] Processing stop observability
+10:08:54.330 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:54.330674300Z][ OBSERVABILITY ] Processing Batch 4
+
+10:08:54.330 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+10:08:54.507 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:54.508 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T09:08:54.508188300Z][ OBSERVABILITY ] Batch event successfull!
+
+10:08:55.091 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+10:08:55.092 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+10:08:55.093 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T09:08:55.093394700Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+10:08:55.093 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/o5xylpa5vwc8dbgip016qvunhzr4vppyjokccvbv/stop
+10:08:55.289 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+10:08:55.289 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+10:08:55.289 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/o5xylpa5vwc8dbgip016qvunhzr4vppyjokccvbv to view build report, insights, and many more debugging information all at one place!
+
+10:08:55.289 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:09:01.132 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"2c7a2f6a-4211-4f2f-a0d0-4df64186f615","buildIdentifier":"#24","userFramework":"junit5","testhub_uuid":"o5xylpa5vwc8dbgip016qvunhzr4vppyjokccvbv","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":14009,"sdk:setup":3482,"local:stop":5786},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"o5xylpa5vwc8dbgip016qvunhzr4vppyjokccvbv","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"failedCount":0,"triggeredCount":6,"sentCount":6,"passed":{"failedCount":0,"triggeredCount":6,"sentCount":6}},"finished":{"triggeredCount":6,"failedCount":0,"sentCount":6},"passed":{"failedCount":0,"triggeredCount":6,"sentCount":6}},"logEvents":{"failedCount":0,"triggeredCount":12,"sentCount":12,"log":{"failedCount":0,"triggeredCount":12,"sentCount":12}},"testEvents":{"started":{"failedCount":0,"triggeredCount":3,"sentCount":3},"finished":{"triggeredCount":3,"failedCount":0,"sentCount":3},"passed":{"failedCount":0,"triggeredCount":3,"sentCount":3}},"cbtSessionEvents":{"failedCount":0,"triggeredCount":3,"sentCount":3},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+10:09:01.407 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+10:09:02.745 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/305a65b071b027991b82a9779899ef1993b367a2
+10:09:02.746 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+10:09:02.746 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  24) is not same as client side buildName(browserstack-build-1 #24)

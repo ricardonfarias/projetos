@@ -1,0 +1,3 @@
+tests\BStackLocalTest.class
+runners\BstackRunner.class
+tests\BStackSampleTest.class
