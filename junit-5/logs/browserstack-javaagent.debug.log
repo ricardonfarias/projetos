@@ -748,3 +748,383 @@
 10:09:02.745 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/305a65b071b027991b82a9779899ef1993b367a2
 10:09:02.746 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 10:09:02.746 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  24) is not same as client side buildName(browserstack-build-1 #24)
+15:12:39.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+15:12:39.418 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:12:39.555 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:12:39.556 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:12:39.606 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:12:39.765 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:12:39.765 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:12:39.769 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:12:39.770 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:12:39.770 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+15:12:39.770 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:12:39.772 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+15:12:39.772 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+15:12:39.772 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+15:12:39.772 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+15:12:40.353 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+15:12:40.721 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 365ms
+15:12:41.426 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 701ms
+15:12:42.324 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 896ms
+15:12:42.326 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+15:12:42.338 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"b648d4ef-dfe2-495c-8ab6-01ae0daf89a1","buildIdentifier":"#25","userFramework":"junit5","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","language_framework":"java_junit5","detectedFramework":"none","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:12:42.645 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+15:12:42.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:12:47.731 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:12:47.730457300Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+15:12:47.731 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+15:12:48.723 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:12:48.723 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe
+15:12:48.723 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:12:48.723465100Z][ OBSERVABILITY ] Build creation successfull!
+
+15:12:48.723 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:12:48.729 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 06_jun__1512_LIS_5CD411C579_MpWX
+15:13:01.276 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:13:01.319 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.319 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.319 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.319 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:01.319 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:01.319 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:01.327 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.327 [Thread-6] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:01.328 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.328 [Thread-7] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:01.329 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire756052517611833566tmp
+15:13:01.329 [Thread-5] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire756052517611833566tmp
+15:13:02.382 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.385 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.448 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:02.554 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.556 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.628 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:13:02.628 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:13:02.628 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+15:13:02.630 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:02.749 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.751 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.801 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:13:02.801 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:13:02.801 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+15:13:02.828 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:02.985 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:13:02.985 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:13:02.985 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.16.0
+15:13:03.137 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+15:13:03.282 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+15:13:03.465 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+15:13:03.508 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 368ms
+15:13:03.680 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 394ms
+15:13:03.845 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 377ms
+15:13:04.288 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 605ms
+15:13:04.450 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 598ms
+15:13:05.117 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 827ms
+15:13:05.118 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+15:13:05.124 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:13:05.142 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 1632ms
+15:13:05.376 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 924ms
+15:13:05.379 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+15:13:05.384 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:13:05.471 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:05.483 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.480259Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:05.486 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:05.490 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.490267300Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:05.496 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:05.500 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.500267500Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:05.500 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:05.501 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.501391900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:05.812 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:05.824 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.820856900Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:05.826 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:05.831 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.831426Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:05.832 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.832424500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:05.833 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.833440Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:05.833 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.833440Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:05.837 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:05.841 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.841437100Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:05.842 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:05.843 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.843435400Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:05.881 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:05.881861400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:06.156 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:06.156713200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:06.156 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:06.156713200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:06.156 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:06.156713200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:06.198 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:06.198335600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:06.979 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 1835ms
+15:13:06.980 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+15:13:06.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:13:07.364 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:07.378 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.373562700Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:07.380 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:07.385 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.385561100Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+15:13:07.392 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:07.397 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.397068400Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:07.397 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:07.398 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.398067600Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:07.493 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.493617300Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717683187493
+
+15:13:07.498 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.498533200Z][ OBSERVABILITY ] Processing Batch 6
+
+15:13:07.501 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:07.695 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.695375100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:07.695 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.695375100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:07.695 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.695375100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:07.736 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.735638400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+15:13:07.836 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.836410Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717683187836
+
+15:13:07.840 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:07.840925900Z][ OBSERVABILITY ] Processing Batch 6
+
+15:13:07.842 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:08.187 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:08.188 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:08.188028200Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:08.532 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:08.534 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:08.534091600Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:09.389 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:09.389804200Z][ OBSERVABILITY ] Time Since Last Batch Processed 1717683189389
+
+15:13:09.399 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:09.399351100Z][ OBSERVABILITY ] Processing Batch 6
+
+15:13:09.403 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:09.498 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:09.498756700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+15:13:09.839 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:09.839222500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2003
+
+15:13:10.123 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:10.124 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:10.124138200Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:11.399 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:11.399286600Z][ OBSERVABILITY ] Time Since Last Batch Processed 2008
+
+15:13:13.058 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+15:13:13.067 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:13.067299900Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:13.071 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:13.071323700Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:13.499 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:13.499301800Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+15:13:13.840 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:13.840928100Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+15:13:15.323 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:15.332 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.332829900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:15.337 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.337836500Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:15.340 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.340836300Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+15:13:15.397 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.397386Z][ OBSERVABILITY ] Time Since Last Batch Processed 3998
+
+15:13:15.399 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.399382400Z][ OBSERVABILITY ] Processing Batch 3
+
+15:13:15.399 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:15.505 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:15.505606400Z][ OBSERVABILITY ] Time Since Last Batch Processed 2006
+
+15:13:15.553 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:15.553 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:15.553861Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:16.663 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:16.663426100Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:16.663 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:16.664 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:16.664418Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:16.667 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:16.667418700Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:16.668 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:16.670 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:16.670403500Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:17.400 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:17.399624700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+15:13:17.400 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:17.400479700Z][ OBSERVABILITY ] Processing Batch 2
+
+15:13:17.400 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:17.507 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:17.507809Z][ OBSERVABILITY ] Time Since Last Batch Processed 2002
+
+15:13:17.553 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:17.554 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:17.554880Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:17.848 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:17.848831800Z][ OBSERVABILITY ] Time Since Last Batch Processed 4008
+
+15:13:21.388 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:21.388273900Z][ OBSERVABILITY ] Time Since Last Batch Processed 3988
+
+15:13:21.497 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:21.497389600Z][ OBSERVABILITY ] Time Since Last Batch Processed 3989
+
+15:13:21.840 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:21.840974100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3992
+
+15:13:23.396 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:23.396963900Z][ OBSERVABILITY ] Time Since Last Batch Processed 2008
+
+15:13:23.506 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:23.506299700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2009
+
+15:13:23.849 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:23.849096800Z][ OBSERVABILITY ] Time Since Last Batch Processed 2009
+
+15:13:27.396 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+15:13:27.398 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.398331400Z][ OBSERVABILITY ] Time Since Last Batch Processed 4002
+
+15:13:27.416 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.416739800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:27.421 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.421755800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:27.507 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.507243300Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+15:13:27.834 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.834641100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3985
+
+15:13:27.836 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:27.836190300Z][ OBSERVABILITY ] Processing Batch 1
+
+15:13:27.836 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:27.989 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:27.989 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:27.989916700Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:29.838 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:29.838517100Z][ OBSERVABILITY ] Time Since Last Batch Processed 2003
+
+15:13:30.459 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:30.470 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:30.470976Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:30.476 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:30.476975300Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:30.481 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:30.481485Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+15:13:31.392 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.392023700Z][ OBSERVABILITY ] Time Since Last Batch Processed 3994
+
+15:13:31.474 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.474621500Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:31.475 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:31.477 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.477759600Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:31.485 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.485766400Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:31.485 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:31.486 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.486766100Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:31.498 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:13:31.498 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:13:31.499 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.498788Z][ OBSERVABILITY ] Processing stop observability
+15:13:31.499 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:31.499851100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3992
+
+15:13:33.508 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:33.508466600Z][ OBSERVABILITY ] Time Since Last Batch Processed 2009
+
+15:13:33.834 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:33.834828200Z][ OBSERVABILITY ] Time Since Last Batch Processed 3995
+
+15:13:33.835 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:33.835196600Z][ OBSERVABILITY ] Processing Batch 4
+
+15:13:33.835 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:33.996 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:33.997 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:33.996454700Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:35.842 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:35.842948900Z][ OBSERVABILITY ] Time Since Last Batch Processed 2007
+
+15:13:37.495 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:37.495655800Z][ OBSERVABILITY ] Time Since Last Batch Processed 3987
+
+15:13:37.515 [ForkJoinPool-1-worker-1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+15:13:37.536 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:37.536884400Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:37.544 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:37.544684200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:39.503 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:39.503150Z][ OBSERVABILITY ] Time Since Last Batch Processed 2008
+
+15:13:39.504 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:39.504686600Z][ OBSERVABILITY ] Processing Batch 1
+
+15:13:39.504 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:39.657 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:39.658 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:39.658665700Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:39.844 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:39.844835700Z][ OBSERVABILITY ] Time Since Last Batch Processed 4002
+
+15:13:43.499 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:43.499576800Z][ OBSERVABILITY ] Time Since Last Batch Processed 3996
+
+15:13:43.841 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:43.841120600Z][ OBSERVABILITY ] Time Since Last Batch Processed 3995
+
+15:13:45.437 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5, TestClass :: tests\BStackSampleTest
+15:13:45.446 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.446072900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:45.454 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.454072900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+15:13:45.458 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.458153800Z][ OBSERVABILITY ] Processing Request Kind CBTSessionCreated
+
+15:13:45.504 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.504602700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+15:13:45.505 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.505259900Z][ OBSERVABILITY ] Processing Batch 2
+
+15:13:45.506 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:45.662 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:45.663 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:45.662866900Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:45.846 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:45.846675700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2005
+
+15:13:46.647 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.647009700Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:46.647 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:46.649 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.649008400Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+15:13:46.653 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.653020300Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:46.653 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+15:13:46.654 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.654004800Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+15:13:46.666 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:13:46.666 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:13:46.666 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.666870600Z][ OBSERVABILITY ] Processing stop observability
+15:13:46.666 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:46.666870600Z][ OBSERVABILITY ] Processing Batch 2
+
+15:13:46.666 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+15:13:46.799 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:13:46.800 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-06-06T14:13:46.800803Z][ OBSERVABILITY ] Batch event successfull!
+
+15:13:49.847 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:49.847504500Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+15:13:53.840 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:53.840847500Z][ OBSERVABILITY ] Time Since Last Batch Processed 3992
+
+15:13:55.841 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:55.841823900Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+15:13:59.840 [pool-2-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:13:59.840507100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3999
+
+15:14:01.496 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:14:01.496 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:14:01.496 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:14:01.496773700Z][ OBSERVABILITY ] Processing stop observability
+15:14:02.087 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+15:14:02.087 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:14:02.088 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-06-06T14:14:02.088390700Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+15:14:02.088 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe/stop
+15:14:02.896 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:14:02.897 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+15:14:02.897 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe to view build report, insights, and many more debugging information all at one place!
+
+15:14:02.897 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:14:09.007 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"qvEsmyqzAS5ExMEsAJp9","userName":"ricardoaugustonu1","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 11","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"b648d4ef-dfe2-495c-8ab6-01ae0daf89a1","buildIdentifier":"#25","userFramework":"junit5","testhub_uuid":"dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe","detectedAppiumVersion":"null","detectedDependencies":"junit5","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"junit5-javaagent\/1.16.0","hostname":"LIS-5CD411C579","measures":{"local:start":12550,"sdk:setup":3676,"local:stop":6056},"language_framework":"java_junit5","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"failedCount":0,"sentCount":6,"triggeredCount":6,"passed":{"failedCount":0,"sentCount":6,"triggeredCount":6}},"finished":{"triggeredCount":6,"failedCount":0,"sentCount":6},"passed":{"failedCount":0,"sentCount":6,"triggeredCount":6}},"logEvents":{"failedCount":0,"sentCount":12,"triggeredCount":12,"log":{"failedCount":0,"sentCount":12,"triggeredCount":12}},"testEvents":{"started":{"failedCount":0,"sentCount":3,"triggeredCount":3},"finished":{"triggeredCount":3,"failedCount":0,"sentCount":3},"passed":{"failedCount":0,"sentCount":3,"triggeredCount":3}},"cbtSessionEvents":{"failedCount":0,"sentCount":3,"triggeredCount":3},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:14:09.236 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+15:14:10.326 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ba07f3bbe049d3a36727eafde3c9543f68441aff
+15:14:10.326 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:14:10.326 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  25) is not same as client side buildName(browserstack-build-1 #25)

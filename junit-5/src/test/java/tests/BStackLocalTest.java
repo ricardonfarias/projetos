@@ -13,4 +13,11 @@ public class BStackLocalTest extends BstackRunner {
         String validateContent = driver.getTitle();
         Assertions.assertTrue(validateContent.contains("BrowserStack Local"), "Local content not validated!");
     }
+
+    @Test
+    void localTest2() {
+        driver.get("http://bs-local.com:45454/");
+        String validateContent = driver.getTitle();
+        Assertions.assertTrue(validateContent.contains("BrowserStack Local"), "Local content not validated!");
+    }
 }

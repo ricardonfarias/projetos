@@ -137,3 +137,29 @@
 10:08:55.289 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 10:09:02.745 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/305a65b071b027991b82a9779899ef1993b367a2
 10:09:02.746 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:12:39.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+15:12:39.418 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:12:39.555 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:12:39.556 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:12:39.606 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:12:39.770 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+15:12:42.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:12:48.723 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:13:01.276 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:13:02.382 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.385 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.448 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:02.554 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.556 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.630 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:02.749 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, idea.version=2024.1.1, user.dir=C\:\\Users\\ricardo.a.farias\\IdeaProjects\\projetos\\junit-5, localrepository=C\:\\Users\\ricardo.a.farias\\.m2\\repository}
+15:13:02.751 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ricardo.a.farias\IdeaProjects\projetos\junit-5\browserstack.yml
+15:13:02.828 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+15:13:05.124 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:13:05.384 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:13:06.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:14:02.897 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dhaeoaiqno8xxytn2x9nwc9lphkreyjn9ztrzhqe to view build report, insights, and many more debugging information all at one place!
+
+15:14:02.897 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:14:10.326 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ba07f3bbe049d3a36727eafde3c9543f68441aff
+15:14:10.326 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
