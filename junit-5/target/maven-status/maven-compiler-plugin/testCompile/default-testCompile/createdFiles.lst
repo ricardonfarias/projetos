@@ -1,3 +1,4 @@
 tests\BStackLocalTest.class
+tests\JavaSample.class
 runners\BstackRunner.class
 tests\BStackSampleTest.class

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.BStackSampleTest-Windows-10-Chrome-120.0
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.705 s - in tests.BStackSampleTest-Windows-10-Chrome-120.0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.189 s - in tests.BStackSampleTest-Windows-10-Chrome-120.0
