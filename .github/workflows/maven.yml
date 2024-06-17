@@ -30,7 +30,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: GitHub Checks
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v1
     - uses: actions/create-outputs@v0.0.0-fake
       id: test
@@ -38,7 +41,7 @@ jobs:
       if: always()
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        name: Tests
+        name: GitHub Checks
         conclusion: ${{ job.status }}
         output: |
           {"summary":"${{ steps.test.outputs.summary }}"}
