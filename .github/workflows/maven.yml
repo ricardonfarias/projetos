@@ -28,14 +28,10 @@ jobs:
         java-version: '22'
         distribution: 'temurin'
         cache: maven
-    - name: TimezoneAction
-      uses: MathRobin/timezone-action@v1.1
-      with:
-       timezoneLinux: 'Europe/Lisbon'
-       timezoneMacos: 'Europe/Lisbon'
-       timezoneWindows: 'Lisbon Standard Time'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: GitHub Checks
+      uses: LouisBrunner/checks-action@v2.0.0 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
