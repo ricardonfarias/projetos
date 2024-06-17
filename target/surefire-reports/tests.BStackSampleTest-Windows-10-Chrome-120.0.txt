@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: tests.BStackSampleTest-Windows-10-Chrome-120.0
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.988 s - in tests.BStackSampleTest-Windows-10-Chrome-120.0
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.98 s <<< FAILURE! - in tests.BStackSampleTest-Windows-10-Chrome-120.0
+tests.BStackSampleTest-Windows-10-Chrome-120.0.singleTest  Time elapsed: 1.72 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Caused by: org.openqa.selenium.WebDriverException: 
+Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.58 seconds
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LIS-5CD411C579', ip: '192.168.1.152', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+
