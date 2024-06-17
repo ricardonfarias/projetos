@@ -25,7 +25,7 @@ public class BStackSampleTest extends BstackRunner {
         Assertions.assertTrue(product_name.matches(product_in_cart), "Product add to the cart - Failed!");
     }
 
-    @Test
+  @Test
     void singleTest2() {
         driver.get("https://bstackdemo.com/");
         final WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
