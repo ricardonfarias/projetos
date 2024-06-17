@@ -28,12 +28,15 @@ jobs:
         java-version: '22'
         distribution: 'temurin'
         cache: maven
-    - name: TimezoneAction
-      uses: MathRobin/timezone-action@v1.1
+    - name: GitHub Checks
+      uses: LouisBrunner/checks-action@v2.0.0
+      if: always()
       with:
-       timezoneLinux: 'Europe/Lisbon'
-       timezoneMacos: 'Europe/Lisbon'
-       timezoneWindows: 'Lisbon Standard Time'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        name: Test XYZ
+        conclusion: ${{ job.status }}
+        output: |
+          {"summary":"${{ steps.test.outputs.summary }}"} 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
