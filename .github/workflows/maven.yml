@@ -20,7 +20,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
+      steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 22
       uses: actions/setup-java@v3
@@ -28,14 +28,16 @@ jobs:
         java-version: '22'
         distribution: 'temurin'
         cache: maven
-    - name: TimezoneAction
-      uses: MathRobin/timezone-action@v1.1
+    - name: GitHub Checks
+      uses: LouisBrunner/checks-action@v2.0.0
+      if: always()
       with:
-       timezoneLinux: 'Europe/Lisbon'
-       timezoneMacos: 'Europe/Lisbon'
-       timezoneWindows: 'Lisbon Standard Time'
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+        token: ${{ secrets.GITHUB_TOKEN }}
+        name: Tests
+        run: mvn -B package --file pom.xml
+        conclusion: ${{ job.status }}
+        output: |
+          {"summary":"${{ steps.test.outputs.summary }}"} 
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
