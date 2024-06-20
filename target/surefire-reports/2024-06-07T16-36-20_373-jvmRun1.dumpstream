@@ -1,9 +1,0 @@
-# Created at 2024-06-07T16:38:08.911
-Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] Visit https://observability.browserstack.com/builds/8ipzmjhdwzmec0jhwfmerslvgvxasgttxshkwowi to view build report, insights, and many more debugging information all at one place!'.
-
-# Created at 2024-06-07T16:38:16.028
-Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] View build on BrowserStack dashboard: https:'.
-
-# Created at 2024-06-07T16:38:16.029
-Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '//automate.browserstack.com/dashboard/v2/builds/2057860a37a2e6ceb27d145745dd56ee2ae20792'.
-
